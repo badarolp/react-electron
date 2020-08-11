@@ -20,8 +20,8 @@ function Dashboard() {
   function tryToConnect() {
     try {
       api.post('https://service.sitemercado.com.br/api/v1/oauth/token', {
-        client_id: "bb14bb49-1b36-461b-a25a-af462388e5eb",
-        client_secret: "TH2x1rzV-.F0DNYs-Quo9wCZEm7jGk2f3_"
+        client_id: "",
+        client_secret: ""
       }).then(response => {
         // console.log(response.data);
         console.log('conectado');
